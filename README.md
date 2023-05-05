@@ -6,7 +6,7 @@ In this Challenge, we trained and evaluated a model based on loan risk to predic
 
 ## Results
 
-Model 1:
+* Model 1:
     - Accuracy: (~ 0.95)
         > The balanced accuracy score of the model was approximately 0.95 (1.00 being the highest)
           and was used instead of a regular accuracy score in order to handle the imbalanced data. It is the avg of recalls from each class (label).
@@ -15,7 +15,7 @@ Model 1:
     - Recall: (0) 0.99, (1) 0.91
         > The recall scores were 0.99 for healthy loans and 0.91 for high-risk loans. This means that out of all the loans that were healthy, the model predicted this outcome 100% of the time. And out of all the loans that were high-risk, the model predicted this outcome 91% of the time.
 
-Model 2:
+* Model 2:
     - Accuracy: (~ 0.99)
          > The balanced accuracy score of the model was approximately 0.99 (1.00 being the highest)
           and was used instead of a regular accuracy score in order to handle the imbalanced data. It is the avg of recalls from each class (label).
